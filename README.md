@@ -1,4 +1,3 @@
-# ReposCalebe
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -56,23 +55,31 @@
     Meu time do coração é o <strong>Cruzeiro 💙</strong>.
   </p>
 </div>
+
           <div class="cta-row">
             <a class="btn btn-primary" href="#projects">Meus Projetos</a>
             <a class="btn btn-outline" href="#contact">Contato</a>
           </div>
         </div>
 
-   <div class="hero-image">
-  <img src="https://e7.pngegg.com/pngimages/984/588/png-clipart-undertale-internet-meme-mario-luigi-meme-nintendo-video-game.png" alt="Foto de perfil do Calebe">
+       <div class="hero-image">
+  <img src="c:\Users\caleb\OneDrive\Imagens\Capturas de tela\Foto perfil.jpg" alt="Foto de perfil do Calebe">
 </div>
+
     </section>
+
+    <!-- SEÇÃO DE PROJETOS -->
     <section id="projects" class="projects">
       <div class="container">
         <header class="section-header">
           <h2>Projetos</h2>
           <p>Alguns projetos e repositórios no GitHub.</p>
         </header>
+
         <div class="projects-grid">
+          
+
+          <!-- Projeto 2 -->
           <article class="project-card">
             <h3>Projeto — Site Pessoal</h3>
             <p>Portfólio construído com HTML5 e CSS externo. Foco em semântica e responsividade.</p>
@@ -80,9 +87,12 @@
               <a href="https://github.com/SEU_USUARIO/PROJETO2" target="_blank" rel="noopener">Ver repositório</a>
             </div>
           </article>
+
+          <!-- Adicione mais cards conforme precisar -->
         </div>
       </div>
     </section>
+
     <!-- SEÇÃO DE CONTATO -->
     <section id="contact" class="contact">
       <div class="container">
@@ -90,11 +100,13 @@
           <h2>Contato</h2>
           <p>Entre em contato por e-mail ou redes sociais.</p>
         </header>
+
         <div class="contact-grid">
           <div class="contact-card">
             <h3>Email</h3>
             <p><a href="https://mail.google.com">calebe.santos@sempreceub.com</a></p>
           </div>
+
           <div class="contact-card">
             <h3>Redes Sociais</h3>
             <ul class="social-list">
@@ -103,14 +115,17 @@
               <li><a href="https://www.instagram.com/calebeealvess/" target="_blank" rel="noopener">Instagram</a></li>
             </ul>
           </div>
+
           <div class="contact-card contact-form-card">
             <h3>Mensagem rápida</h3>
             <!-- Formulário simples que envia por email (mailto) ou pode ser substituído por backend -->
             <form action="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" method="post" enctype="text/plain">
               <label for="name">Nome</label>
               <input id="name" name="name" type="text" placeholder="Seu nome">
+
               <label for="message">Mensagem</label>
               <textarea id="message" name="message" rows="4" placeholder="Escreva uma mensagem..."></textarea>
+
               <button class="btn btn-primary" type="submit">Enviar</button>
             </form>
           </div>
