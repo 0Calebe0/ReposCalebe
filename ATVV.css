@@ -1,0 +1,271 @@
+/* styles.css
+   Tema: fundo branco, texto preto, detalhes em laranja/vermelho/amarelo
+   Estilo inspirado na estética limpa do Pangram Pangram, mas com cores e layout próprios.
+*/
+
+/* Variáveis de cores */
+:root{
+  --bg: #ffffff;
+  --text: #003a69;
+  --muted: #6b6b6b;
+  --accent-1: #ff6a00; /* laranja */
+  --accent-2: #ff3b3b; /* vermelho */
+  --accent-3: #ffd400; /* amarelo */
+  --card-bg: #f2f3fa;
+  --glass: rgba(11,11,11,0.04);
+  --max-width: 1100px;
+  --radius: 12px;
+  --shadow: 0 6px 18px rgba(10,10,10,0.06);
+  --space-sm: 12px;
+  --space-md: 20px;
+  --space-lg: 40px;
+}
+
+/* Reset e tipografia */
+*{box-sizing:border-box}
+html,body{height:100%}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: url("https://wallpaper-house.com/data/out/7/wallpaper2you_194632.gif") no-repeat center center fixed;
+  background-size: cover;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+
+.container{
+  width:calc(100% - 40px);
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:40px 0;
+}
+
+/* Header */
+.site-header{
+  border-bottom:1px solid rgba(0,0,0,0.06);
+  background:linear-gradient(0deg, transparent, transparent);
+  position:sticky;
+  top:0;
+  z-index:50;
+  backdrop-filter: blur(4px);
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  padding:12px 0;
+}
+.logo{
+  font-weight:700;
+  font-size:1.15rem;
+  text-decoration:none;
+  color:var(--text);
+}
+.logo .accent{
+  color:var(--accent-1);
+  margin-left:6px;
+}
+
+/* Nav */
+.main-nav ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  gap:18px;
+  align-items:center;
+}
+.main-nav a{
+  text-decoration:none;
+  color:var(--text);
+  font-weight:600;
+  padding:8px 10px;
+  border-radius:8px;
+}
+.main-nav a:hover{
+  background:var(--glass);
+}
+
+/* HERO */
+.hero{
+  padding:60px 0;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1fr 380px;
+  gap:40px;
+  align-items:center;
+}
+.hero-text h1{
+  margin:0 0 8px 0;
+  font-size:2.1rem;
+  letter-spacing:-0.5px;
+}
+.subtitle{
+  margin:0 0 18px 0;
+  color:var(--muted);
+  font-weight:600;
+}
+.presentation-card{
+  margin-top:18px;
+  background:var(--card-bg);
+  border-radius:var(--radius);
+  padding:18px;
+  box-shadow:var(--shadow);
+  border:1px solid rgba(0,0,0,0.04);
+}
+.presentation-card h2{
+  margin:0 0 8px 0;
+  color:var(--accent-2);
+}
+.cta-row{
+  margin-top:18px;
+  display:flex;
+  gap:12px;
+}
+.btn{
+  display:inline-block;
+  text-decoration:none;
+  padding:10px 16px;
+  border-radius:10px;
+  font-weight:700;
+  cursor:pointer;
+  border:0;
+}
+.btn-primary{
+  background:linear-gradient(90deg,var(--accent-1),var(--accent-2));
+  color:#fff;
+  box-shadow:0 6px 18px rgba(255,106,0,0.12);
+}
+.btn-outline{
+  background:transparent;
+  color:var(--text);
+  border:2px solid rgba(0,0,0,0.06);
+}
+
+/* Hero imagem placeholder */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -600px; /* deixa a imagem um pouco mais acima */
+}
+
+.hero-image img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--accent-1);
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 700px) {
+  .hero-image img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-image img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+/* Projects */
+.projects{
+  padding:40px 0;
+}
+.section-header h2{
+  margin:0;
+  font-size:1.4rem;
+}
+.section-header p{ margin:6px 0 22px 0; color:var(--muted); }
+
+.projects-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:18px;
+}
+.project-card{
+  background:var(--card-bg);
+  border-radius:12px;
+  padding:18px;
+  box-shadow:var(--shadow);
+  border:1px solid rgba(0,0,0,0.04);
+}
+.project-card h3{ margin:0 0 8px 0; font-size:1.05rem; }
+.project-links a{
+  text-decoration:none;
+  font-weight:700;
+  display:inline-block;
+  margin-top:12px;
+  padding:8px 12px;
+  border-radius:8px;
+  background:linear-gradient(90deg,var(--accent-3),var(--accent-1));
+  color:#000;
+}
+
+/* Contact */
+.contact{
+  padding:40px 0;
+}
+.contact-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:18px;
+}
+.contact-card{
+  background:var(--card-bg);
+  padding:18px;
+  border-radius:12px;
+  box-shadow:var(--shadow);
+  border:1px solid rgba(0,0,0,0.04);
+}
+.contact-card h3{ margin-top:0; }
+
+/* Form */
+form{ display:flex; flex-direction:column; gap:10px; }
+input[type="text"], textarea{
+  padding:10px;
+  border-radius:8px;
+  border:1px solid rgba(0,0,0,0.08);
+  font-family:inherit;
+}
+label{ font-weight:600; font-size:0.95rem; }
+
+/* Footer */
+.site-footer{
+  border-top:1px solid rgba(0,0,0,0.06);
+  padding:22px 0;
+  background:transparent;
+}
+.footer-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+.site-footer nav ul{ display:flex; gap:12px; list-style:none; margin:0; padding:0; }
+.site-footer a{ text-decoration:none; color:var(--muted); font-weight:600 }
+
+/* Responsividade */
+@media (max-width:1000px){
+  .hero-grid{ grid-template-columns:1fr 320px; }
+  .projects-grid{ grid-template-columns:repeat(2, 1fr); }
+  .contact-grid{ grid-template-columns:repeat(1, 1fr); }
+}
+@media (max-width:700px){
+  .header-inner{ flex-direction:column; align-items:flex-start; gap:8px; }
+  .hero-grid{ grid-template-columns:1fr; }
+  .hero-image .image-placeholder{ width:100%; height:260px; }
+  .projects-grid{ grid-template-columns:1fr; }
+  .container{ padding:20px; width:calc(100% - 32px) }
+}
