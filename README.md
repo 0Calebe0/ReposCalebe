@@ -62,7 +62,7 @@
           </div>
         </div>
 
-  <div class="hero-image">
+   <div class="hero-image">
   <img src="c:\Users\caleb\OneDrive\Imagens\Capturas de tela\Foto perfil.jpg" alt="Foto de perfil do Calebe">
 </div>
     </section>
