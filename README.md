@@ -63,7 +63,7 @@
         </div>
 
    <div class="hero-image">
-  <img src="c:\Users\caleb\OneDrive\Imagens\Capturas de tela\Foto perfil.jpg" alt="Foto de perfil do Calebe">
+  <img src="" alt="https://e7.pngegg.com/pngimages/984/588/png-clipart-undertale-internet-meme-mario-luigi-meme-nintendo-video-game.png">
 </div>
     </section>
     <section id="projects" class="projects">
