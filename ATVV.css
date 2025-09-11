@@ -1,8 +1,3 @@
-/* styles.css
-   Tema: fundo branco, texto preto, detalhes em laranja/vermelho/amarelo
-   Estilo inspirado na estética limpa do Pangram Pangram, mas com cores e layout próprios.
-*/
-
 /* Variáveis de cores */
 :root{
   --bg: #ffffff;
@@ -152,7 +147,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-top: -600px; /* deixa a imagem um pouco mais acima */
+  margin-top: -600px;
 }
 
 .hero-image img {
@@ -269,3 +264,4 @@ label{ font-weight:600; font-size:0.95rem; }
   .projects-grid{ grid-template-columns:1fr; }
   .container{ padding:20px; width:calc(100% - 32px) }
 }
+
