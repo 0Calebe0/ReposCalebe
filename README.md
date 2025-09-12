@@ -60,9 +60,9 @@
           </div>
         </div>
        <div class="hero-image">
-  <img src="c:\Users\caleb\OneDrive\Imagens\Capturas de tela\Foto perfil.jpg" alt="Foto de perfil do Calebe">
-</div>
-    </section>
+  <img src="https://i.pinimg.com/736x/81/d2/e3/81d2e34dd1f8b3786100d2a73354114a.jpg" alt="Foto de perfil do Calebe">
+ </div> 
+        </section>
     <!-- SEÇÃO DE PROJETOS -->
     <section id="projects" class="projects">
       <div class="container">
