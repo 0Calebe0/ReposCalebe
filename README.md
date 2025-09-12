@@ -1,6 +1,8 @@
 <html lang="pt-BR">
 <head>
-  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calebe — Portfólio</title>
 
   <!-- Fonte moderna — você pode trocar ou remover -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
