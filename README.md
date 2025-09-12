@@ -104,20 +104,7 @@
             </ul>
           </div>
           <div class="contact-card contact-form-card">
-            <h3>Mensagem rápida</h3>
-            <!-- Formulário simples que envia por email (mailto) ou pode ser substituído por backend -->
-            <form action="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" method="post" enctype="text/plain">
-              <label for="name">Nome</label>
-              <input id="name" name="name" type="text" placeholder="Seu nome">
-              <label for="message">Mensagem</label>
-              <textarea id="message" name="message" rows="4" placeholder="Escreva uma mensagem..."></textarea>
-              <button class="btn btn-primary" type="submit">Enviar</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+           
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>&copy; <span id="year"></span> Calebe Alves. Todos os direitos reservados.</p>
