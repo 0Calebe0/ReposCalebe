@@ -1,9 +1,13 @@
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 from datetime import datetime
 import numpy as np
+
+# --- DEPENDÊNCIAS NECESSÁRIAS ---
+# Para rodar este aplicativo, certifique-se de que as seguintes bibliotecas estão instaladas:
+# pip install streamlit pandas plotly numpy
+# --------------------------------
 
 # Configuração da página inicial do Streamlit
 st.set_page_config(
