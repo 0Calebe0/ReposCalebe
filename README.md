@@ -106,7 +106,7 @@
    <div class="contact-card">
             <h3>Redes Sociais</h3>
             <ul class="social-list">
-              <li><a href="https://github.com/0Calebe0/programacao-web-aula02-Calebe-Alves" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://github.com/0Calebe0/ReposCalebe" target="_blank" rel="noopener">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/SEU_PERFIL" target="_blank" rel="noopener">LinkedIn</a></li>
               <li><a href="https://www.instagram.com/calebeealvess/" target="_blank" rel="noopener">Instagram</a></li>
             </ul>
