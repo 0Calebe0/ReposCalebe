@@ -81,7 +81,7 @@
             <h3>Projeto — Site Pessoal</h3>
             <p>Portfólio construído com HTML5 e CSS externo. Foco em semântica e responsividade.</p>
             <div class="project-links">
-              <a href="https://github.com/0Calebe0/programacao-web-aula02-Calebe-Alves" target="_blank" rel="noopener">
+              <a href="https:https://github.com/0Calebe0/ReposCalebe" target="_blank" rel="noopener">
                 Ver repositório
               </a>
             </div>
